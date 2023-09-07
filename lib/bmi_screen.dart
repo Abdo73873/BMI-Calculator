@@ -49,7 +49,7 @@ class _BmiScreenState extends State<BmiScreen> {
                         child: Container(
                           decoration:BoxDecoration(
                             borderRadius: BorderRadius.circular(10.0,),
-                            color: isMale?Colors.red:Colors.white12,
+                            color: isMale?Colors.red :Colors.white12,
                           ),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
